@@ -42,7 +42,7 @@ body {
 }
 
 /* Styling for specific sections */
-.home, #about, #services, #projects, #contact {
+#home, #about, #services, #projects, #contact {
     color: #333333;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
@@ -51,12 +51,12 @@ body {
 }
 
 /* Styling for additional text */
-.welcome-text, #hi-text, #name-text, #designation-text, #services-text {
+#welcome-text, #hi-text, #name-text, #designation-text, #services-text {
     font-family: 'Work Sans', sans-serif;
     word-wrap: break-word;
 }
 
-.welcome-text {
+#welcome-text {
     color: #222222;
     font-size: 20px;
     font-weight: 600;
@@ -64,7 +64,7 @@ body {
     margin-left: 45px;
 }
 
-.hi-text {
+#hi-text {
     color: #222222;
     font-size: 40px;
     font-weight: 700;
@@ -73,7 +73,7 @@ body {
     margin-left: 45px;
 }
 
-.name-text {
+#name-text {
     color: #0077FF;
     font-size: 50px;
     font-weight: 700;
@@ -81,7 +81,7 @@ body {
     margin-left: 45px;
 }
 
-.designation-text {
+#designation-text {
     color: #222222;
     font-size: 40px;
     font-weight: 700;
@@ -89,7 +89,7 @@ body {
     margin-left: 45px;
 }
 
-.services-text {
+#services-text {
     color: #222222;
     font-size: 20px;
     font-weight: 400;
