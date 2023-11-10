@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background: #FFF;
+    overflow-x: hidden; /* Mencegah scrolling horizontal */
+}
+
+.container {
+    display: flex;
+    padding: 15px px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 340px;
+    background: #FFF;
+    max-width: 100%; /* Menyesuaikan lebar dengan layar */
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-wrap: break-word;
+}
+
+/* Styling for specific sections */
+.home, #about, #services, #projects, #contact {
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Styling for additional text */
+.welcome-text, #hi-text, #name-text, #designation-text, #services-text {
+    font-family: 'Work Sans', sans-serif;
+    word-wrap: break-word;
+}
+
+.welcome-text {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: 45px;
+}
+
+.hi-text {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.name-text {
+    color: #0077FF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-left: 45px;
+}
+
+.designation-text {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-left: 45px;
+}
+
+.services-text {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 45px;
+}
+
+/* Styling for image */
+.profile-image {
+    display: flex;
+    align-items: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.content-left{
+    width: 40%;
+}
+.about-me {
+    margin-top: 100px;
+    color: #0077FF;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-align: center; /* Add this line to center text */
+    top: 50%; /* Align to the middle vertically */
+    left: 50%; /* Align to the middle horizontally */
+}
+
+.about-me p{
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-align: center; /* Add this line to center text */
+    top: 50%; /* Align to the middle vertically */
+    left: 50%; /* Align to the middle horizontally */
+}
+.isi-aboutme h3 {
+    color: #0077FF;
+    justify-content: center;
+    text-align: center; /* Add this line to center text */
+    top: 50%; /* Align to the middle vertically */
+    left: 50%; /* Align to the middle horizontally */
+}
+
+
+
